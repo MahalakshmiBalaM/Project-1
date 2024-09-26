@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="53.974552">
+    <testcase classname="Verify description under Areas of scenting in Scent application" name="View description under Areas of scenting in Scent application" time="24.025526">
+        <system-out><![CDATA[Given launch chrome browser maximize........................................passed
+When launch url of Scent application........................................passed
+And To click About us btn...................................................passed
+And To scroll down to areas of scenting.....................................passed
+And To click differnt arease(hotel ,office , Airport).......................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Navigate to Contact Us from Our Services" name="Navigate to &quot;Contact Us&quot; Page by clicking Contact Us btn from Our service" time="13.376688">
+        <system-out><![CDATA[Given launch firefox browser maximize.......................................passed
+When launch url of Scent website............................................passed
+And To click Our service btn................................................passed
+And To scroll down to contact us btn........................................passed
+And To click contact us btn.................................................passed
+Then exit the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Check all functionalities on the“ContactUs”page with giving the details" name="check and verify the functionalities of ContactUs page" time="16.572338">
+        <system-out><![CDATA[Given launch FF browser and maximize it.....................................passed
+When Get the url of Scent Website...........................................passed
+And click the contactUs btn.................................................passed
+And Scroll down to form field...............................................passed
+And To click the full name field and enter the name.........................passed
+And To click the company field and enter the company name...................passed
+And To click the phone number field and enter the phone number..............passed
+And To click the mail field and enter the mail Id...........................passed
+And To click the country field and enter the country name...................passed
+And To click the mgs field and enter any mgs................................passed
+And To click the send btn...................................................passed
+And scroll down to see the map..............................................passed
+Then close the Scent Website................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

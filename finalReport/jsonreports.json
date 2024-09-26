@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "View description under Areas of scenting in Scent application",
+        "description": "",
+        "id": "verify-description-under-areas-of-scenting-in-scent-application;view-description-under-areas-of-scenting-in-scent-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4864348000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch chrome browser maximize",
+            "match": {
+              "location": "Scents.launch_chrome_browser_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4424305100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch url of Scent application",
+            "match": {
+              "location": "Scents.launch_url_of_Scent_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6350297700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click About us btn",
+            "match": {
+              "location": "Scents.to_click_About_us_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3291538300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To scroll down to areas of scenting",
+            "match": {
+              "location": "Scents.to_scroll_down_to_areas_of_scenting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3813960400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click differnt arease(hotel ,office , Airport)",
+            "match": {
+              "location": "Scents.to_click_differnt_arease_hotel_office_Airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1277479600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "Scents.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@laks"
+          }
+        ]
+      }
+    ],
+    "name": "Verify description under Areas of scenting in Scent application",
+    "description": "",
+    "id": "verify-description-under-areas-of-scenting-in-scent-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scents.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Navigate to \"Contact Us\" Page by clicking Contact Us btn from Our service",
+        "description": "",
+        "id": "verify-navigate-to-contact-us-from-our-services;navigate-to-\"contact-us\"-page-by-clicking-contact-us-btn-from-our-service",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3684736200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch firefox browser maximize",
+            "match": {
+              "location": "Secnario2.launch_firefox_browser_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3436881999,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch url of Scent website",
+            "match": {
+              "location": "Secnario2.launch_url_of_Scent_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1137416300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click Our service btn",
+            "match": {
+              "location": "Secnario2.to_click_Our_service_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3893747900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To scroll down to contact us btn",
+            "match": {
+              "location": "Secnario2.to_scroll_down_to_contact_us_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click contact us btn",
+            "match": {
+              "location": "Secnario2.to_click_contact_us_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1223496699,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "exit the browser",
+            "match": {
+              "location": "Secnario2.exit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@laksh"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Navigate to Contact Us from Our Services",
+    "description": "",
+    "id": "verify-navigate-to-contact-us-from-our-services",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Secnario2.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "check and verify the functionalities of ContactUs page",
+        "description": "",
+        "id": "check-all-functionalities-on-the“contactus”page-with-giving-the-details;check-and-verify-the-functionalities-of-contactus-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3612270801,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch FF browser and maximize it",
+            "match": {
+              "location": "Secnario3.launch_FF_browser_and_maximize_it()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3935122800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get the url of Scent Website",
+            "match": {
+              "location": "Secnario3.get_the_url_of_Scent_Website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 724473299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the contactUs btn",
+            "match": {
+              "location": "Secnario3.click_the_contactUs_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3300781601,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Scroll down to form field",
+            "match": {
+              "location": "Secnario3.scroll_down_to_form_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108218899,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click the full name field and enter the name",
+            "match": {
+              "location": "Secnario3.to_click_the_full_name_field_and_enter_the_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66573000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the company field and enter the company name",
+            "match": {
+              "location": "Secnario3.to_click_the_company_field_and_enter_the_company_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45719600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the phone number field and enter the phone number",
+            "match": {
+              "location": "Secnario3.to_click_the_phone_number_field_and_enter_the_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50506300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To click the mail field and enter the mail Id",
+            "match": {
+              "location": "Secnario3.to_click_the_mail_field_and_enter_the_mail_Id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55535499,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To click the country field and enter the country name",
+            "match": {
+              "location": "Secnario3.to_click_the_country_field_and_enter_the_country_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53961500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To click the mgs field and enter any mgs",
+            "match": {
+              "location": "Secnario3.to_click_the_mgs_field_and_enter_any_mgs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399174199,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To click the send btn",
+            "match": {
+              "location": "Secnario3.to_click_the_send_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3047574601,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "scroll down to see the map",
+            "match": {
+              "location": "Secnario3.scroll_down_to_see_the_map()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171479499,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the Scent Website",
+            "match": {
+              "location": "Secnario3.close_the_Scent_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@lakshmi"
+          }
+        ]
+      }
+    ],
+    "name": "Check all functionalities on the“ContactUs”page with giving the details",
+    "description": "",
+    "id": "check-all-functionalities-on-the“contactus”page-with-giving-the-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Secnario3.feature",
+    "tags": []
+  }
+]

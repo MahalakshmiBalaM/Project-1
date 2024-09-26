@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.984769">
+    <testcase classname="To validate the login Functionality of ICIC BANK LOGIN PAGE Application" name="To  validate login" time="17.984769">
+        <system-out><![CDATA[Given launch the browser and maximize window................................passed
+When launch the url of the ICIC BANK application............................passed
+And To click the login btn..................................................passed
+And To click personal.......................................................passed
+Then close all browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

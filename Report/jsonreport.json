@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To  validate login",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-icic-bank-login-page-application;to--validate-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4290765600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch the browser and maximize window",
+            "match": {
+              "location": "Icic.launch_the_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2108304500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch the url of the ICIC BANK application",
+            "match": {
+              "location": "Icic.launch_the_url_of_the_ICIC_BANK_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3323908800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the login btn",
+            "match": {
+              "location": "Icic.to_click_the_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6408522300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To click personal",
+            "match": {
+              "location": "Icic.to_click_personal()"
+            },
+            "keyword": "And "
+          },
+          {
+          
+            "result": {
+              "duration": 1850334200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close all browser",
+            "match": {
+              "location": "Icic.close_all_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature5"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login Functionality of ICIC BANK LOGIN PAGE Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-icic-bank-login-page-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Icic.feature",
+    "tags": [
+      {
+        "name": "@Feature5",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
